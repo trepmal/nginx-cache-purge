@@ -11,7 +11,7 @@ This is configured based on the following nginx configuration options:
 *nginx-purge-plugin.php* is a WordPress plugin
 
 *purge.php* receives the request to purge a particular cache. It can also be used to purge a cache from the command line. e.g.
-`php purge.php {key}`
+`php purge.php {url}`
 
 *purge-sample.conf* is a sample nginx conf for where purge.php might reside
 
